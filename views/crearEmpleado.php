@@ -3,7 +3,8 @@ include('../includes/header.php');
 ?>
 
 
-<body>
+
+  
   <div class="container">
     <h1>Formulario cliente</h1>
     <form action="../controller/empleadorControlador.php" method="POST">
