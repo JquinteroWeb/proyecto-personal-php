@@ -25,7 +25,7 @@ include('../includes/header.php');
             
           </div>
             <div class="col-6">
-              <label for="" class="form-label">Edad</label>
+              <label for="TXT_EDAD" class="form-label">Edad</label>
               <input type="text" class="form-control" name="TXT_EDAD" id="TXT_EDAD"  placeholder="Ingresa tu edad...">
               
             </div>
