@@ -9,11 +9,15 @@ include('../includes/header.php');
     <h1>Formulario cliente</h1>
     <form action="../controller/empleadorControlador.php" method="POST">
       <div class="row">
-        <div class="col-6">
+        <div class="col-4">
           <label for="TXT_NOMBRE" class="form-label">Nombre</label>
           <input type="text" class="form-control" name="TXT_NOMBRE" id="TXT_NOMBRE" placeholder="Ingresa tu nombre...">
         </div>
-        <div class="col-6">
+        <div class="col-4">
+          <label for="TXT_CEDULA" class="form-label">Cedula</label>
+          <input type="text" class="form-control" name="TXT_CEDULA" id="TXT_CEDULA" placeholder="Ingresa tu nombre...">
+        </div>
+        <div class="col-4">
           <label for="TXT_APELLIDO" class="form-label">Apellido</label>
           <input type="text" class="form-control" name="TXT_APELLIDO" id="TXT_APELLIDO" placeholder="Ingresa tu apellido...">
         </div>
